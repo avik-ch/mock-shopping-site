@@ -1,7 +1,11 @@
+:root {
+    --header-height: 80px;
+}
+
 .nav-container {
     width: 100%;
     background-color: white;
-    box-shadow: black 0px 1px 15px;
+    box-shadow: black 0px 0px 10px;
     font-size: 1.2rem;
 }
 
@@ -11,7 +15,7 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 16px;
-    height: 80px;
+    height: var(--header-height);
     align-items: center;
     justify-content: space-between;
 }
@@ -35,17 +39,22 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 0;
+    margin: 0;
     height: 100%;
 }
 
 li {
     display: flex;
-    width: 80px;
+    width: 90px;
     gap: 8px;
-    align-items: center;
+    height: var(--header-height);
     justify-content: center;
-    height: 100%;
+    align-items: center;
     cursor: pointer;
+}
+
+li:hover {
+    background-color: rgb(213, 216, 216);
 }
 
 a {

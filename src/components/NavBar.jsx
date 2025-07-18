@@ -10,15 +10,15 @@ function NavBar({ totalCartItems }) {
         </Link>
         <nav>
           <ul>
-            <li>
-              <Link to="/">HOME</Link>
-            </li>
-            <li>
-              <Link to="shop">SHOP</Link>
-            </li>
-            <li>
-              <Link to="cart">CART [{totalCartItems}]</Link>
-            </li>
+            <Link to="/">
+              <li>HOME</li>
+            </Link>
+            <Link to="shop">
+              <li>SHOP</li>
+            </Link>
+            <Link to="cart">
+              <li>CART [{totalCartItems}]</li>
+            </Link>
           </ul>
         </nav>
       </header>
