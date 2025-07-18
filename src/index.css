@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 :root {
   font-weight: 400;
 
@@ -8,3 +10,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-font {
+  font-family: Tilt Neon, Arial, Helvetica, sans-serif;
+}
