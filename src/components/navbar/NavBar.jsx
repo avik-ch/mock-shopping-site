@@ -1,14 +1,14 @@
-import "./styles/navbar.css";
+import classes from "./navbar.module.css";
 import { Link } from "react-router-dom";
 
 function NavBar({ totalCartItems }) {
   return (
-    <div className="nav-container">
-      <header>
+    <div className={`${classes.navContainer}`}>
+      <header className={`${classes.header}`}>
         <Link to="/">
-          <span className="title-text">! (REAL) STORE</span>
+          <span className="logo-font header-title">! (REAL) STORE</span>
         </Link>
-        <nav>
+        <nav className={`${classes.nav}`}>
           <ul>
             <Link to="/">
               <li>HOME</li>
