@@ -20,10 +20,11 @@
     justify-content: space-between;
 }
 
-.header-title {
-    font-size: 2rem;
+.headerTitle {
+    font-size: 1.7rem;
     font-weight: bold;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .nav {

@@ -6,7 +6,7 @@ function NavBar({ totalCartItems }) {
     <div className={`${classes.navContainer}`}>
       <header className={`${classes.header}`}>
         <Link to="/">
-          <span className="logo-font header-title">! (REAL) STORE</span>
+          <span className={`logo-font ${classes.headerTitle}`}>! (REAL) STORE</span>
         </Link>
         <nav className={`${classes.nav}`}>
           <ul>
