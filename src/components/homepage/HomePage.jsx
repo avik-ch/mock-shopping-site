@@ -16,7 +16,7 @@ function CallToAction() {
 function HomePage() {
   return (
     <div className={`${classes.container}`}>
-      <h1 className="logo-font home-title">! (REAL) STORE</h1>
+      <h1 className={`logo-font ${classes.homeTitle}`}>! (REAL) STORE</h1>
       <CallToAction />
     </div>
   );
